@@ -3,9 +3,10 @@ import json
 
 # Skapar en komplex data-struktur
 my_nest = [
-    {1:'2',2:'3',3:'4', 4:'5'}, 
-    {'key': {'key1':'value1','key2':'value2'}}
+    {1:'2',2:'3',3:'4', 4:'5', 6:6}, 
+    {'key': {'key1':'value1','key2':'value2', 'key3':[1,2,3]}}
     ]
+
 
 # Vi öppnar en kanal till våran fil och därefter 
 # använder vi JSON för att skriva ner våran data-struktur
